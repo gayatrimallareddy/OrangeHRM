@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="orange_hrm_tests.Dashboard_Legend_Verification"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="DirectoryTest">
+    <classes>
+      <class name="orange_hrm_tests.Directory_Search"/>
+    </classes>
+  </test> <!-- DirectoryTest -->
+</suite> <!-- Suite -->
